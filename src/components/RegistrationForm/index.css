@@ -1,0 +1,39 @@
+/* Write your CSS code here */
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.heading {
+  font-size: 40px;
+  color: #ea580c;
+  font-family: 'Roboto';
+}
+.first-name-label {
+  color: black;
+  font-weight: 400;
+  font-family: 'Roboto';
+}
+.first-name-input-filled {
+  width: 20vw;
+  height: 5vh;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.button-container {
+  text-align: center;
+  margin-top: 10px;
+}
+.button {
+  border-width: 0px;
+  background-color: #ea580c;
+  color: aliceblue;
+  padding: 10px;
+  border-radius: 6px;
+}
+.input-container {
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+  padding: 50px;
+}
